@@ -75,7 +75,7 @@ export const UserAccountNav = async ({
             <Link href="/dashboard/billing">Manage Subscription</Link>
           ) : (
             <Link href="/pricing">
-              Upgrade <Gem className="text-blue-600 w-4 h-4 ml-1.5" />
+              Upgrade <Gem className="text-purple-600 w-4 h-4 ml-1.5" />
             </Link>
           )}
         </DropdownMenuItem>

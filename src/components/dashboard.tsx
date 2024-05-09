@@ -56,7 +56,7 @@ export const Dashboard = ({ subscriptionPlan }: DashboardProps) => {
                     <div className="pt-6 px-6 flex w-full items-center justify-between space-x-6">
                       <div
                         aria-hidden
-                        className="h-10 w-10 flex-shrink-0 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500"
+                        className="h-10 w-10 flex-shrink-0 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500"
                       />
 
                       <div className="flex-1 truncate">
@@ -75,10 +75,10 @@ export const Dashboard = ({ subscriptionPlan }: DashboardProps) => {
                       {format(new Date(file.createdAt), "MMM yyyy")}
                     </div>
 
-                    <div className="flex items-center gap-2">
+                    {/* <div className="flex items-center gap-2">
                       <MessageSquare className="h-4 w-4" />
                       {file._count.messages}
-                    </div>
+                    </div> */}
 
                     <Button
                       variant="destructive"

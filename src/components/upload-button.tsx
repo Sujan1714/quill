@@ -134,7 +134,7 @@ const UploadDropzone = ({
               {acceptedFiles && acceptedFiles[0] ? (
                 <div className="max-w-xl bg-white flex items-center rounded-md overflow-hidden outline outline-[1px] outline-zinc-200 divide-x divide-zinc-200">
                   <div className="px-3 py-2 h-full grid place-items-center">
-                    <FileIcon className="h-4 w-4 text-blue-500" />
+                    <FileIcon className="h-4 w-4 text-purple-500" />
                   </div>
 
                   {/* file name */}
