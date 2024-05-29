@@ -48,7 +48,7 @@ export function constructMetadata({
       creator: "@sujan"
     },
     icons,
-    metadataBase: new URL('https://quill-chi-wine.vercel.app/'),
+    metadataBase: new URL('https://docchatmain.vercel.app/'),
     themeColor: '#FFF',
     ...(noIndex && {
       robots: {
